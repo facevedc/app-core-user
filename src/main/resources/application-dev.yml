@@ -1,3 +1,17 @@
 spring:
   application:
     name: app-core-user
+    password:
+      config:
+        vector: vector1234567890
+        secret: secret1234567890
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/sentinel
+    username: root
+    password: _Elementaly8
+    pool:
+      enable: true
+      initial-size: 10
+      max-size: 100
+      max-idle-time: 30m
+      validation-query: SELECT 1

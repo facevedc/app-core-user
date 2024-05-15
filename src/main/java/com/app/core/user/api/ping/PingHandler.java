@@ -1,4 +1,4 @@
-package com.app.core.user.api.ping.handler;
+package com.app.core.user.api.ping;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Component;
